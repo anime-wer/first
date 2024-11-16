@@ -16,6 +16,7 @@ def inline(m: Message):
            ikb("кнопка", callback_data="BTN"))
     kb.row(ikb("oodaj", callback_data="ops"))
     bot.send_message(m.chat.id, "вы лох", reply_markup=kb)
+    bot.send_message(m.chat.id, "bpppppppppppppppppppppp")
 
 
 @bot.message_handler(commands=["register"])
